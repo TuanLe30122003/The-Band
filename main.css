@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+#header {
+    width: 100%;
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+#nav {
+    text-decoration: none;
+    display:inline-block;
+    list-style-type: none;
+}
+#nav > li > a {
+    color: #fff;
+    display: block;
+    padding: 0 24px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#nav > li {
+    display : inline-block;
+    position:relative;
+}
+#subnav > li {
+    
+}
+#nav > li:hover > a {
+    background-color: #fff;
+    color: #000;
+}
+#subnav {   
+    list-style-type: none;
+    position :absolute;
+    box-shadow : 0 0 10px rgba(0,0,0,0.4);
+    display:none;
+}
+#subnav li a {
+    text-decoration: none;
+    color:#000;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    line-height: 38px;
+    min-width: 160px;
+    padding: 0 16px;
+    background-color: white;
+}
+#subnav li {
+    line-height: 38px;
+    min-width: 160px;
+}
+#subnav li:hover a {
+    background-color: gray;
+}
+#nav li:hover #subnav {
+    display: block;
+}
+#search {
+    float :right;
+    height: 46px;
+    width: 61.94px;
+}
+#search:hover {
+    background-color: red;
+}
+#search p {
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+}
+#slider {
+    position : relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('la.jpg') top center / cover no-repeat;
+}
+#content {
+    color :#fff;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 32px 16px;
+}
+#content p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 15px 0 ;
+}
+#content h2 {
+    line-height : 36px;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+#contentpage {
+    padding: 64px 16px;
+    margin: 0 121px;
+    text-align: center;
+}
+}
+#bandinfo {
+    /* padding: 64px 16px;
+    margin: 0 121px;
+    text-align: center; */
+}
+.aboutheading {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400 ;
+    margin: 10px 0; 
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+.aboutsubhead {
+    font-style:italic;
+    font-family: "Lato", sans-serif;
+    opacity: 0.4;
+    margin: 15px 0 ;
+}
+#bandinfo #info {
+    text-align: justify;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+#member .meminfo {
+    float : left ;
+    width: 33.333333%;
+    text-align: center;
+}
+#member .memavt {
+    margin-bottom: 16px ;
+    width: 153.59px;
+    height: 153.59px;
+}
+#member .name {
+    margin: 15px 0 ;
+    border-radius: 4px;
+}
+#member {
+    overflow: hidden;
+}
+#alltour {
+    background-color: #000;
+    text-align: center;
+
+}
+#tour {
+    padding: 64px 16px;
+    margin: 0 121px;
+}
+#tour > .aboutheading {
+    color: #fff;
+}
+#tour > .aboutsubhead {
+    color: #fff;
+}
+#month li {
+    color: #000;
+    text-align: left;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+    /* opacity: 0.4; */
+    color: #757575;
+    font-size: 15px;
+}
+#month {
+    list-style-type: none;
+}
+.soldout {
+    background-color: #f44336 ;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-left: 16px;
+    font-size: 15px;
+    /* line-height: 2; */
+    border-bottom: 1px solid #ddd;
+}
+.ticketnum {
+    float: right;
+    margin-right: 16px;
+    padding: 0 8px;
+    font-size: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+}
